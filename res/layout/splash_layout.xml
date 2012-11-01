@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pagebg"
+    android:padding="2px"
+    android:gravity="center_vertical|center_horizontal"
+    
+    >
+    <TableRow
+    	android:paddingTop="10px">
+    	<TextView
+    		android:id="@+id/splash_view"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/splash_text"
+    		
+    		/>
+    </TableRow>
+    
+    <TableRow 
+    	android:paddingTop="25px">
+    	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+	   	 	
+    	<CheckBox
+    		android:id="@+id/sp_checkbox"
+        	android:defaultValue="false"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Don't show this on startup"
+    		android:textSize="10px" />
+    	<Button
+   			android:id="@+id/close_splash"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:width="70px"
+    		android:text="Close"
+    		android:textSize="10px"
+    		android:height="15px"/>
+    	</LinearLayout>
+   		
+    </TableRow>    
+    
+</TableLayout>

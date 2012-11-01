@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="help_help_title">Help</string>
+	<string name="help_help_text">Main help text. Click menu to view context help options</string>
+	<string name="camera_help_title">Camera Help</string>
+	<string name="camera_help_text">Camera help text</string>
+	<string name="upload_help_title">Upload Help</string>
+	<string name="upload_help_text">Upload help text</string>
+	<string name="settings_help_title">Settings Help</string>
+	<string name="settings_help_text">Settings help text</string>
+	<string name="views_help_title">Views Help</string>
+	<string name="views_help_text">Views help text</string>
+	<string name="alert_dialog_close">Close</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pagebg"
+    android:padding="2px"
+    >
+    <TableRow android:gravity="center">
+    <Button
+    	android:id="@+id/camera_button"
+    	android:background="@drawable/camera_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:height="60px"
+    	android:width="60px"
+    	android:padding="2px"/>
+    
+    
+    </TableRow>
+    	
+
+</TableLayout>

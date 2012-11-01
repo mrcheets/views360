@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pagebg"
+    android:id="@+id/pageLayout"
+    android:keepScreenOn="true">
+    
+    <com.raccuddasys.views.activities.Preview
+    	android:id="@+id/myCamera"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    	
+    />
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2px"
+    android:height="60px"
+    android:id="@+id/buttonslayout"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/camerabg"
+    android:gravity="bottom"
+    >
+    
+    <TableRow>
+    <TextView android:id="@+id/pitch"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+     <TextView android:id="@+id/roll"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+	<TextView android:id="@+id/rotate"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+	<TextView android:id="@+id/photos"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               /> 
+    
+    </TableRow>
+    <TableRow>
+    	<TextView android:id="@+id/pf"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+               <TextView android:id="@+id/pb"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+      <TextView android:id="@+id/rl"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+	  <TextView android:id="@+id/rr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+	<TextView android:id="@+id/rotl"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+               <TextView android:id="@+id/rotr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ff0000"
+               />
+    
+    </TableRow>
+    
+    <TableRow android:gravity="right">
+    
+     	<Button
+	    	android:id="@+id/action_button"
+    		android:background="@drawable/action_button"
+	    	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:height="60px"
+	    	android:width="60px"
+    		android:padding="2px"/>
+    	
+    </TableRow>
+</TableLayout>
+</RelativeLayout>

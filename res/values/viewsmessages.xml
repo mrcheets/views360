@@ -1,0 +1,18 @@
+<resources>
+	<string name="error_taking_picture">Picture taking stopped</string>
+	<string name="camera_error_cause"> due to errors in camera position</string>
+	<string name="user_stop_cause"> due to errors in camera position</string>
+	<string name="orientation_sensors_error">Your phone has no orientation sensors</string>
+	<string name="pause_taking_picture">Camera position Wrong. pausing photo take</string>
+	<string name="resume_taking_picture">Camera position OK. Resuming photo take</string>
+	<string name="stop_taking_picture_save_error">Could not save picture photo shoot will now stop</string>
+	<string name="rotate_left">Rotate to the left</string>
+	<string name="rotate_right">Rotate to the right</string>
+	<string name="ask_taking_picture_try_again">Please try again?</string>
+	<string name="picture_successful">Picture taken successfully</string>
+	<string name="processing_picture">Processing picture....</string>
+	<string name="views_help_page">See views</string>
+	<string name="maps_help_page">View maps</string>
+	<string name="camera_help_page">Make pictures</string>
+	<string name="settings_help_page">You can change settings there</string>
+</resources>

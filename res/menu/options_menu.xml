@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	 <item android:id="@+id/open_view"
+          android:title="Open" 
+          android:icon="@drawable/menu_open"/>
+    <item android:id="@+id/upload_view"
+          android:title="Upload"
+          android:icon="@drawable/menu_upload"
+           />
+     <item android:id="@+id/locate_view"
+          android:title="Location" 
+          android:icon="@drawable/menu_locate"/>
+     <item android:id="@+id/help_view"
+          android:title="Help" 
+          android:icon="@drawable/menu_help"/>
+    <!--  <item android:id="@+id/settings_view"
+          android:title="Settings"
+          android:icon="@drawable/menu_settings" /> -->
+     <item android:id="@+id/quit_view"
+          android:title="Quit"
+          android:icon="@drawable/menu_quit" />
+</menu>

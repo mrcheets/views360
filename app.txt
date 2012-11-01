@@ -1,0 +1,43 @@
+The app
+NBNBNB: Cretae app from the top!!!!
+
+External views thumbnails page (with search)
+Send link to friend via sms
+
+Personal views thumbnails page
+Send to friend via mms
+upload to website(default(site name), othersite) 
+
+Settings page
+Default home page(Help, Camera, Personal views, net views, map)
+website, Username and password
+
+Help page
+Simple Animated help
+
+Camera page
+Buttons to all the rest
+A capture(Big button)
+
+The view viewing page
+left, right other buttons
+
+Widget/provider
+Can watch images/video
+
+The map page(Specific points(per image) or all points!!)
+
+Points to note:
+Check frames taken vs the angle (eg 3 frames in 90% or 1 frame in 30 %)
+If too slow, showTooSlow(), if too fast ShowTooFast(). If speed is not
+adjusted, stopCameraInformUser.
+
+if pitch angle changes beyond + or -5degrees, showPitchChange(). 
+If pitch persists beyond 5 deg for 3 secs, stopCameraInformUser()
+
+If successful, stop camera, compile photo, show the picture.(take user
+to views page with that page in focus.
+
+Initial settings: help page(main), no upload(Camera), Default google map, default view
+
+

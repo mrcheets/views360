@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">views360</string>
+    <string name="views_help">How to use Views360</string>
+    <string name="views_settings">Edit settings</string>
+    <string name="views_views">View Images</string>
+    <string name="views_map">Check Image Spot</string>
+    <string name="views_camera">Take Photo</string>
+    <string name="select_dialog">Performing Image Conversion</string>
+    <string name="message_dialog">Converting raw images to PNG. This may take a while. Please be patient.</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_always_hide">Never Show Dialog</string>
+    <string name="open_dialog_local">Local Files</string>
+    <string name="open_dialog_internet">Internet Files</string>
+    <string name="splash_title">Welcome to views360</string>
+    <string name="splash_text">views360 exists to help you share a 360 degree view of your world. <br />
+    views360 aims to make it easy to generate 360 degree views and their locations. By simply taking photos and spinning around views360 will combine this into a wonderful panorama of your sorrounding view. <br/><br/>
+    Share your view over the internet with other 360 degree views enthusiasts while geo tagging it to show the area on a map!<br/><br/>
+    Enjoy!</string>
+    <string name="alushta_desc">A beautiful panorama of Alushta from the hill top</string>
+    <string name="alushta_latitude"></string>
+    <string name="alushta_longitude"></string>
+    <string name="alushta_image">alushta.jpg</string>
+</resources>

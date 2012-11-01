@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pagebg"
+
+>
+	<TableLayout 
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="2px">
+    	<TableRow android:gravity="center">
+    	<Button
+    		android:id="@+id/camera_button"
+    		android:background="@drawable/camera_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:height="60px"
+    		android:width="60px"
+    		android:padding="2px"/>
+    	
+    	</TableRow>
+	</TableLayout>
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="2px"
+    	android:height="60px"
+    	android:id="@+id/buttonslayout"
+    	android:layout_alignParentBottom="true"
+    	android:gravity="left"
+    	>
+    	
+    	<Button
+    		android:id="@+id/left_button"
+    		android:background="@drawable/left_button"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:height="40px"
+    		android:width="40px"
+    		android:padding="2px"
+    	/>	
+    </LinearLayout>	
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="2px"
+    	android:height="60px"
+    	android:id="@+id/buttonslayout"
+    	android:layout_alignParentBottom="true"
+    	android:gravity="right"
+    	>
+    	<Button
+	    	android:id="@+id/right_button"
+    		android:background="@drawable/right_button"
+    		android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+    		android:height="40px"
+    		android:width="40px"
+	    	android:padding="2px"
+    	/>
+    </LinearLayout>
+
+</RelativeLayout>
